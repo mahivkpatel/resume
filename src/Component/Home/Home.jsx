@@ -5,8 +5,9 @@ import {resume, Freelancer, Lanetwork, surya_infotech_work} from "../../Utils/da
 import "./Home.scss";
 function Home() {
     return (
-      <div className="main">
+      <div >
           <Header/>
+          <div className="main">
     <div className="intro">
       <p>
       Experienced Front-End Developer with a proven history of working in the information technology and services industry. Involved in designing, building and supporting complex software applications for Hospitality, Insurance, Healthcare, and Supply Chain sector.
@@ -67,6 +68,7 @@ function Home() {
 <div>Master in Computer Application</div>
 
 
+      </div>
       </div>
        <Footer/>
       </div>
