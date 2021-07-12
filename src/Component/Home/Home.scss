@@ -13,3 +13,30 @@ text-align: left;
 .flex_end{
     align-items: flex-end;
 }
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .skill h3, .work_histry h3,.education h3{
+      font-size: large
+    }
+    .skill h5, .work_histry h5,.education h5{
+        font-size: initial
+      }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .skill h3, .work_histry h3,.education h3{
+        font-size: large
+      }
+      .skill h5, .work_histry h5,.education h5{
+        font-size: initial
+      }
+  }
