@@ -1,33 +1,31 @@
-
-.container {    
-    padding: 50px;
-    margin: 0 auto;
- font-family:sans-serif;
-    text-align: center;
+.container {
+  padding: 50px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
 }
-hr{
-    border-radius: 2px ;
+hr {
+  border-radius: 2px;
 }
 
-  
-  /* 
+/* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    .container{
-        padding: 20px;
-    }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    padding: 20px;
   }
-  
-  /* 
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    .container{
-        padding: 20px;
-    }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    padding: 20px;
   }
+}

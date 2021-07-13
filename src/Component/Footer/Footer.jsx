@@ -1,9 +1,9 @@
 function Footer() {
-    return (
-     <footer>
-<hr/>
-     </footer>
-    );
-  }
-  
-  export default Footer;
+  return (
+    <footer>
+      <hr />
+    </footer>
+  )
+}
+
+export default Footer
