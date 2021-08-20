@@ -95,7 +95,7 @@ function Home() {
           <div>
             <h5>
               Surya Infotech, Surat, GJ, Web Developer (July 2016 - October
-              2017)
+              2016)
             </h5>
             <p>
               This project covers product implementation, integration and
